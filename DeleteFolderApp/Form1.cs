@@ -13,7 +13,7 @@ namespace DeleteFolderApp
 {
     public partial class Form1 : Form
     {
-        string path = @"E:\Project2\Blog2\trunk\Tam.Framework";
+        string path = @"local path";
         public Form1()
         {
             InitializeComponent();
