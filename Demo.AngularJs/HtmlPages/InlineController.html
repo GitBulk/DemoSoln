@@ -1,0 +1,21 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+</head>
+<body>
+    <div ng-app ng-controller="inlineController">
+        <button ng-click="increase()">Click me</button>
+        <p>{{ count }}</p>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.26/angular.min.js"></script>
+    <script>
+        function inlineController($scope) {
+            $scope.count = 0;
+            $scope.increase = function () {
+                $scope.count = $scope.count + 1;
+            }
+        }
+    </script>
+</body>
+</html>
