@@ -1,4 +1,4 @@
 # DemoSoln
 DemoSoln
 
-I add a a dummy project and test github sync feature.
+I add dummy projects and test github sync feature.
